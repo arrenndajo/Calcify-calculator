@@ -9,12 +9,13 @@ body {
     margin: 10px;
     padding: 15px;
     display: flex;
+    flex-direction: column;
     height: 90vh;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
     background-color: hsl(0, 0%, 70%);
-    background-image: url('banner.png');
+    background-image: url('images/banner.png');
     box-sizing: border-box;
 }
 
@@ -97,4 +98,31 @@ button:hover{
 }
 .numbers:active{
     background-color: hsl(0, 0%, 45%); 
+}
+
+.links {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: black;
+}
+
+.links:hover {
+    background-color: lightgray;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    justify-content: baseline;
+    align-items: center;
 }
