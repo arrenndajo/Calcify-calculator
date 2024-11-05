@@ -1,2 +1,2 @@
-# Calculator
-Calculator app using HTML, CSS, JavaScript. Made it similar to iOS Calculator.
+# Calcify
+A calculator app using HTML, CSS & JavaScript. Made it similar to iOS Calculator App.
