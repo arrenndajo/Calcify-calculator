@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: hsl(0, 0%, 70%);
+    background-image: url('banner.png');
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: right;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    pointer-events: none;
+    display: flex;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px; 
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 50px;
+}
+
+.buttons button{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+.buttons button:active{
+    transform: scale(0.99);
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator{
+    background-color: hsl(36.15,100%,52.16%);
+}
+.operator:hover{
+    background-color: hsl(36.15,100%,62.16%);
+}
+.operator:active{
+    background-color: hsl(36.15,100%,72.16%);
+}
+
+.other{
+    background-color: hsl(0, 0%, 50%);
+}
+.other:hover{
+    background-color: hsl(0, 0%, 60%);
+}
+.other:active{
+    background-color: hsl(0, 0%, 70%); 
+}
+
+.numbers{
+    background-color: hsl(0, 0%, 25%)
+}
+.numbers:hover{
+    background-color: hsl(0, 0%, 35%);
+}
+.numbers:active{
+    background-color: hsl(0, 0%, 45%); 
+}
